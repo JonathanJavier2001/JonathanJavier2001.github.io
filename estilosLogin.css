@@ -1,0 +1,241 @@
+/*ESTILOS LOGIN*/
+
+#idBodyLogin{
+    font-family: 'Zen Maru Gothic', sans-serif;
+    font-size: 20px;
+    background: url("../Imagenes/FondoLogin.jpg") no-repeat center top;
+    background-size: cover;
+}
+
+.loginDiv{
+    width: 400px;
+    height: 420px;
+    background-color: rgb(0, 0, 0, 0.4);
+    /*background: #000;*/
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+    border-radius:30px;
+}
+
+.loginDiv .icono{
+    position: absolute;
+    border-radius: 50%;
+    left: calc(50% - 50px);
+    top: 5px;
+}
+
+.loginDiv .inputs{
+    font-family: 'Zen Maru Gothic', sans-serif;
+    font-size: 20px;
+    width: 100%;
+}
+
+.loginDiv #idIngresar{
+    font-family: 'Zen Maru Gothic', sans-serif;
+    font-size: 20px;  
+    background-color: darkgray;  
+    border-radius: 10px;
+    position: relative;
+    left: 35%;
+}
+
+#idIngresar:hover{
+    opacity: 80%;
+}
+
+/*ESTILOS PAGINA PRINCIPAL*/
+
+.bodyPaginaPrincipal{
+    font-family: 'Permanent Marker', cursive;
+    background: black;
+    margin: 0;
+    padding: 0;
+}
+
+#headerPagPrin{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.videoFondo{
+    width: 100%;
+    background-size: cover;
+    opacity: 50%;
+}
+
+.divVideo{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: 0;
+    position: absolute;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tituloPrincipal{
+    font-size: 80px;
+    font-weight: 900px;
+    z-index: 100;
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+.tituloPrincipal::after{
+    display: block;
+    width: 30%;
+    height: 10px;
+    content: "";
+    margin: auto;
+    background: #fff;
+}
+
+.menu{
+    list-style: none;
+    padding: 0;
+    background: #092327;
+    width: 100%;
+    max-width: 100%;
+    margin: auto;
+    font-family: 'Kanit', sans-serif;
+}
+
+.menu li a{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    display: block;
+}
+
+.menu li{
+    display: inline-block;
+    text-align: center;
+}
+
+.menu li a:hover{
+    background: #3d3735;
+}
+
+/*ESTILOS VENTANA DE ASIGNATURAS*/
+
+.bodyAsignaturas{
+    background: #092327;
+    font-family: 'Kanit', sans-serif;
+    color: white;
+}
+
+.contenedorSlider{
+    margin: auto;
+    width: 800px;
+    height: 1800px;
+    padding: 30px;
+    background: black;
+    text-align: justify;
+    border-radius: 50px ;
+}
+
+.bodyAsignaturas ul, li{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+ul.listaSlider{
+    position: relative;
+    width: 800px;
+    height: 600px;
+}
+
+ul.listaSlider li{
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    width: inherit;
+    height: inherit;
+    transition: opacity .5s;
+}
+
+ul.listaSlider li img{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 50px;
+}
+
+ul.listaSlider li:first-child{
+    opacity: 1;
+}
+
+.numeros{
+    text-align: center;
+    margin: 20px;
+}
+
+.numeros li{
+    display: inline-block;
+    text-align: center;
+}
+
+.numeros li a{
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    background: brown;
+    padding: 10px;
+    width: 20px;
+    height: 20px;
+    font-size: 20px;
+    margin-top: 1100px;
+    border-radius: 100%;
+}
+
+#idBotonRegresar{
+    background: rgb(63, 20, 220);
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+    font-family: 'Kanit', sans-serif;
+    font-size: 15px;
+}
+
+#idBotonRegresar:hover{
+    opacity: 80%;
+}
+
+/*ESTILOS PÁGINA MUSICA*/
+.cancion{
+    margin-left: 30px;
+    margin-top: 100px;
+    width: 30%;
+    height: 100%;
+    float: left;
+    align-items: center;
+    justify-content: center;
+    background: black;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.cancion:hover{
+    width: 30.3%;
+    height: 101%;
+    opacity: 70%;
+}
+
+.cancion img{
+    margin-bottom: 30px;
+    width: 300px;
+    height: 300px;
+}
+
+
